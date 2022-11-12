@@ -1,0 +1,38 @@
+# This file contains the Modeled Rotation Curves of
+#	de Blok, McGaugh, & Rubin (2001).
+#
+#data obtained from http://astroweb.case.edu/ssm/data/RCsmooth.0701.dat
+#
+# The start of data for each individual galaxy is delimited by a line
+# containing that galaxy's name.
+# 
+# The maning of each column is
+# R: radius in arcsec.
+# Rkpc: radius in kpc for adopted distance.
+# Vgas: rotation caused by the observed gas, assuming M_gas = 1.4 M_HI.
+# Vdisk: rotation caused by the observed disk stars, assuming M/L = 1.0 in R.
+# Vbul: rotation caused by the observed bulge stars, assuming M/L = 1.0 in R.
+# V: the observed [smoothed] velocity.
+# Err: Unvertainty in V 
+#        (includes measurement, inclination, and asymmetry uncertainties.)
+# If no measurements of the luminous components exist (sample II),
+# Vgas=Vdisk=Vbul=0.
+#
+#Name UGC11819
+#R	Rkpc	Vgas	Vdisk Vbul 	V	Err
+#"	kpc	km/s	km/s	km/s	km/s	km/s
+3.0	0.9	0	0	0	35.1	12.1
+5.0	1.5	0	0	0	56.6	10.8
+6.2	1.8	0	0	0	68.0	11.2
+9.0	2.6	0	0	0	86.9	4.3
+11.0	3.2	0	0	0	96.4	4.3
+13.0	3.8	0	0	0	105.9	6.0
+15.9	4.6	0	0	0	122.3	11.3
+17.9	5.2	0	0	0	131.7	4.3
+18.3	5.3	0	0	0	133.4	7.0
+21.0	6.1	0	0	0	141.5	4.3
+22.1	6.4	0	0	0	143.7	13.9
+24.8	7.2	0	0	0	148.0	11.1
+29.0	8.4	0	0	0	153.1	11.6
+30.7	8.9	0	0	0	154.7	4.2
+40.0	11.7	0	0	0	152.6	11.0
